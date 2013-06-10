@@ -5,8 +5,8 @@ Currently logs in to Google Analytics and scrapes the realtime page for the acti
 
 Usage:
 
-  rake 'run[your.google@account.com,googlePassword,http://api.yourdomain.com/update-metric]'
+    rake 'run[your.google@account.com,googlePassword,http://api.yourdomain.com/update-metric]'
   
-Your api should take a post variable 'value' which contains the updated count, i.e: {value: "3098"}
+Your api should take a post variable 'value' which contains the updated count, i.e: `{value: "3098"}`
 
 Make sure to initialise submodules to get CasperJS
